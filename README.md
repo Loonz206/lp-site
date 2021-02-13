@@ -7,5 +7,5 @@
 
 # lp-site | flat site generator
 
-sdf
+
 _an example site using gatbsy as a flat file website generator_
