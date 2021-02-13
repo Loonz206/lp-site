@@ -1,0 +1,26 @@
+@import "./normalize.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
+@import "./typography.scss";
+@import "./form.scss";
+@import "./grid.scss";
+
+// 404 page styles -->>
+
+.relative {
+  position: relative;
+}
+
+.absolute-center {
+  width: 50%;
+  height: 50%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+// end 404 page styles -->>

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout renders correctly 1`] = `
+<div
+  className="wrap"
+  id="wrap"
+>
+  <header>
+    <a
+      className="sr-only"
+      href="#content"
+    >
+      Skip to Content
+    </a>
+    <a
+      className="menu-link"
+      href="#menu"
+      onClick={[Function]}
+    >
+      Menu ☰
+    </a>
+    <nav
+      id="menu"
+      role="navigation"
+    >
+      <ul>
+        <li>
+          <a
+            className="nav-link"
+            href="/about"
+          >
+            about
+          </a>
+        </li>
+        <li>
+          <a
+            className="nav-link"
+            href="/services"
+          >
+            services
+          </a>
+        </li>
+        <li>
+          <a
+            className="nav-link"
+            href="/contact"
+          >
+            contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    className="card-container"
+  >
+    <a
+      href="/"
+    >
+      <test-file-stub
+        className="img-responsive"
+      />
+      UX/UI Designer & Front-End Developer
+    </a>
+    <br />
+    <a
+      href="https://twitter.com/loonz206"
+    >
+      @loonz206
+    </a>
+  </div>
+  <main
+    id="content"
+  />
+  <footer>
+    <p>
+      Copyright | 2019 - 2021
+    </p>
+  </footer>
+</div>
+`;

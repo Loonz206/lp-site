@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header>
+  <a
+    className="sr-only"
+    href="#content"
+  >
+    Skip to Content
+  </a>
+  <a
+    className="menu-link active"
+    href="#menu"
+    onClick={[Function]}
+  >
+    Menu ☰
+  </a>
+  <nav
+    id="menu"
+    role="navigation"
+  >
+    <ul>
+      <li>
+        <a
+          className="nav-link"
+          href="/hello"
+        >
+          hello
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
