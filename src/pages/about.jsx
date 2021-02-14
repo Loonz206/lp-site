@@ -10,7 +10,7 @@ const About = () => {
         user-driven, responsive websites and applications. My adaptive
         personality makes it fun for me to jump into various types of teams and
         support the build from writing code to designing layouts and other
-        graphical elements.
+        graphical elements. Test.
       </p>
     </Layout>
   );
