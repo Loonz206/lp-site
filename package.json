@@ -19,6 +19,7 @@
     "update-tests": "jest -- -u",
     "validate": "npm-run-all --parallel check-format lint",
     "rebuid-sass": "npm rebuild node-sass",
+    "build:prefix": "gatsby build --prefix-paths",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/Loonz206/lp-site.git",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
