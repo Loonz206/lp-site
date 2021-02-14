@@ -4,7 +4,7 @@ import Layout from "../components/Layout/Layout";
 const About = () => {
   return (
     <Layout>
-      <h1>About</h1>
+      <h1>About Lenny</h1>
       <p>
         A software engineer with solid experiences in creating attractive,
         user-driven, responsive websites and applications. My adaptive
