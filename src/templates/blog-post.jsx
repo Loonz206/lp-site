@@ -7,13 +7,12 @@ import Layout from "../components/Layout/Layout";
 
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark;
+  const { html } = post;
   return (
     <Layout>
       <div>
         <h1>{post.frontmatter.title}</h1>
-        <div
-          dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(post.html) }}
-        />
+        <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(html) }} />
       </div>
     </Layout>
   );
