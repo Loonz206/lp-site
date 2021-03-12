@@ -2,6 +2,7 @@
 import React from "react";
 import { graphql } from "gatsby";
 import PropTypes from "prop-types";
+import DOMPurify from "dompurify";
 import Layout from "../components/Layout/Layout";
 
 const BlogPost = ({ data }) => {
@@ -10,7 +11,9 @@ const BlogPost = ({ data }) => {
     <Layout>
       <div>
         <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div
+          dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(post.html) }}
+        />
       </div>
     </Layout>
   );
