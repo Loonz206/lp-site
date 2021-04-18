@@ -1,2 +1,2 @@
 (window.webpackJsonp=window.webpackJsonp||[]).push([[5],{bT9l:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),i=n.n(a),r=n("uSmJ");t.default=function(){return i.a.createElement(r.a,null,i.a.createElement("h1",null,"About"),i.a.createElement("p",null,"A software engineer with solid experiences in creating attractive, user-driven, responsive websites and applications. My adaptive personality makes it fun for me to jump into various types of teams and support the build from writing code to designing layouts and other graphical elements."))}}}]);
-//# sourceMappingURL=component---src-pages-about-jsx-4f7834bc7b90a77b31e7.js.map
+//# sourceMappingURL=component---src-pages-about-jsx-a3972b7bf91037a144f1.js.map
