@@ -12,7 +12,6 @@ const Layout = props => {
     return state === "hello" ? setState("boob") : setState("hello");
   };
   const { children } = props;
-  // TODO: Move these links to be dynamic instead and fed into LKP
   const links = [
     {
       name: "about",

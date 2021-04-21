@@ -4,6 +4,8 @@
 ![Github Actions CI](https://github.com/Loonz206/lp-site/workflows/Github%20Actions%20CI/badge.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/Loonz206/lp-site/badge.svg)](https://snyk.io/test/github/Loonz206/lp-site)
 
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/dashboard?id=Loonz206_lp-site)
+
 # lp-site | flat site generator
 
 
