@@ -5,9 +5,12 @@ module.exports = {
     jest: true
   },
   extends: [
+    "plugin:react-hooks/recommended",
     "plugin:react/recommended",
     "airbnb",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:sonarjs/recommended"
   ],
   globals: {
     Atomics: "readonly",
@@ -20,6 +23,11 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module"
   },
-  plugins: ["react"],
-  rules: {}
+  plugins: ["react", "react-hooks", "prettier", "jsx-a11y", "sonarjs"],
+  rules: {},
+  settings: {
+    react: {
+      version: "detect"
+    }
+  }
 };
