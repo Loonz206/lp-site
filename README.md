@@ -8,5 +8,4 @@
 
 # lp-site | flat site generator
 
-
 _an example site using gatbsy as a flat file website generator_

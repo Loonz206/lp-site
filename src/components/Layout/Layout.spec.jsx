@@ -1,7 +1,7 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import "@testing-library/jest-dom/extend-expect";
-import { render } from "@testing-library/react";
+import { render, fireEvent } from "@testing-library/react";
 
 import Layout from "./Layout";
 
@@ -10,10 +10,14 @@ describe("Layout", () => {
     const tree = renderer.create(<Layout />).toJSON();
     expect(tree).toMatchSnapshot();
   });
-});
 
-test("do something simple", () => {
-  render(<Layout />);
-
-  expect(true).toBe(true);
+  test("the header to toggle the UI", () => {
+    render(<Layout />);
+    // Arrange
+    expect(document.querySelector("#wrap")).toHaveClass("wrap");
+    // Act
+    fireEvent.click(document.querySelector(".menu-link"));
+    // Assert
+    expect(document.querySelector("#wrap")).toHaveClass("wrap active");
+  });
 });

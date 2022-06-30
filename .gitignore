@@ -12,6 +12,7 @@
 /build
 .idea/
 .vscode/
+.dccache
 
 # misc
 .DS_Store

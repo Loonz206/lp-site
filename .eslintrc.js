@@ -10,7 +10,8 @@ module.exports = {
     "airbnb",
     "plugin:prettier/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:sonarjs/recommended"
+    "plugin:sonarjs/recommended",
+    "plugin:cypress/recommended"
   ],
   globals: {
     Atomics: "readonly",
