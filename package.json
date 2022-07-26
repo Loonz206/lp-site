@@ -56,7 +56,7 @@
     "@commitlint/config-conventional": "^8.3.4",
     "@testing-library/jest-dom": "^5.0.0",
     "@testing-library/react": "^10.0.0",
-    "babel-preset-gatsby": "^0.2.26",
+    "babel-preset-gatsby": "^0.12.3",
     "eslint": "7.32.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.7.0",
