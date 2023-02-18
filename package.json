@@ -33,7 +33,7 @@
   "author": "loonz206 <@loonz206>",
   "license": "ISC",
   "dependencies": {
-    "@snyk/protect": "^1.961.0",
+    "@snyk/protect": "^1.1091.0",
     "@testing-library/cypress": "^8.0.3",
     "babel-jest": "^24.9.0",
     "cypress": "^10.3.0",
