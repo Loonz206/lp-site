@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/Layout/Layout";
 
-export default () => {
+const NotFound = () => {
   return (
     <Layout>
       <h1>404 Page</h1>
@@ -18,3 +18,5 @@ export default () => {
     </Layout>
   );
 };
+
+export default NotFound;

@@ -6,12 +6,11 @@ import Footer from "../Footer/Footer";
 import "./Layout.scss";
 import Logo from "../../assets/logo.svg";
 
-const Layout = props => {
+const Layout = ({ children = [] }) => {
   const [state, setState] = useState("hello");
   const handleClick = () => {
     return state === "hello" ? setState("boob") : setState("hello");
   };
-  const { children } = props;
   const links = [
     {
       name: "about",
@@ -53,10 +52,6 @@ const Layout = props => {
 };
 
 export default Layout;
-
-Layout.defaultProps = {
-  children: []
-};
 
 Layout.propTypes = {
   children: PropTypes.node
