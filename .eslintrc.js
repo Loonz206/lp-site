@@ -25,7 +25,24 @@ module.exports = {
     sourceType: "module"
   },
   plugins: ["react", "react-hooks", "prettier", "jsx-a11y", "sonarjs"],
-  rules: {},
+  rules: {
+    "react/function-component-definition": "off",
+    "react/require-default-props": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        devDependencies: [
+          "**/*.spec.*",
+          "**/*.test.*",
+          "jest*.js",
+          "jest.config.js",
+          "jest-preprocess.js",
+          "cypress.config.js",
+          "cypress/**"
+        ]
+      }
+    ]
+  },
   settings: {
     react: {
       version: "detect"

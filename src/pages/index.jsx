@@ -28,8 +28,8 @@ const Home = ({ data }) => {
 export default Home;
 
 export const query = graphql`
-  {
-    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+  query HomePage {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       edges {
         node {
           id

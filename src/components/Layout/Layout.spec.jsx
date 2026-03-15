@@ -1,6 +1,6 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import "@testing-library/jest-dom/extend-expect";
+import "@testing-library/jest-dom";
 import { render, fireEvent } from "@testing-library/react";
 
 import Layout from "./Layout";

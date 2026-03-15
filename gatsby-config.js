@@ -1,4 +1,6 @@
 /* eslint-disable prettier/prettier */
+const sass = require(`sass`);
+
 module.exports = {
   pathPrefix: `/lp-site`,
   siteMetadata: {
@@ -21,6 +23,11 @@ module.exports = {
       }
     },
     `gatsby-transformer-remark`,
-    `gatsby-plugin-sass`
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: sass
+      }
+    }
   ]
 };
